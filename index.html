@@ -1,72 +1,72 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>模写コーディング2</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- ここからヘッダー -->
-    <header>
-        <div class="container">
-            <!-- header icon -->
-            <div class="header_icon">
-                <h1 class="site_title"><a href="index.html"><img src="img/logo.svg" alt="siteLogo"></a></h1>
-            </div>
-            <!-- header navigation -->
-            <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Bicycle</li>
-                </ul>
-            </nav>
-        </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Profile</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header id="header" class="wrapper">
+      <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="Profile"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#bicycle">Bicycle</a></li>
+        </ul>
+      </nav>
     </header>
-    <!-- ここからメイン -->
+
     <main>
-        <!-- main visual -->
-        <div class="main_visual">
-            <img src="img/mainvisual.jpg" alt="mainVisual">
+      <div id="mainvisual">
+        <img src="img/mainvisual.jpg" alt="テキストテキストテキスト">
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="section-title">About</h2>
+        <div class="content">
+          <img src="img/about.jpg" alt="テキストテキストテキスト">
+          <div class="text">
+            <h3 class="content-title">KAKERU MIYAICHI</h3>
+            <p>
+              テキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </div>
         </div>
-        <!-- about section -->
-        <section class="about_section">
-            <div class="container">
-                <h2 class="section_title">About</h2>
-                <img src="img/about.jpg" alt="profile">
-                <h3>KAKERU MIYAICHI</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rerum accusamus, eveniet voluptas exercitationem quod illo doloremque facere necessitatibus molestias reiciendis odit, quis et corporis corrupti praesentium dolores porro aspernatur?</p>
-            </div>
-        </section>
-        <!-- bicycle section -->
-        <section class="bicycle section">
-            <div class="container">
-                <h2 class="secion_title">Bicycle</h2>
-                <ul>
-                    <li>
-                        <img src="img/bicycle1.jpg" alt="">
-                        <h3 class="content_title">タイトルタイトル</h3>
-                        <p>テキストテキストテキスト</p>
-                    </li>
-                    <li>
-                        <img src="img/bicycle2.jpg" alt="">
-                        <h3 class="content_title">タイトルタイトル</h3>
-                        <p>テキストテキストテキスト</p>
-                    </li>
-                    <li>
-                        <img src="img/bicycle3.jpg" alt="">
-                        <h3 class="content_title">タイトルタイトル</h3>
-                        <p>テキストテキストテキスト</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+      </section>
+
+      <section id="bicycle" class="wrapper">
+        <h2 class="section-title">Bicycle</h2>
+        <ul>
+          <li>
+            <img src="img/bicycle1.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </li>
+          <li>
+            <img src="img/bicycle2.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </li>
+          <li>
+            <img src="img/bicycle3.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </li>
+        </ul>
+      </section>
     </main>
-    <!-- ここからフッター -->
-    <footer>
-        <div class="copywrite">
-            © 2020 Profile
-        </div>
+
+    <footer id="footer">
+      <p>&copy; 2020 Profile</p>
     </footer>
-</body>
+
+  </body>
+
 </html>
